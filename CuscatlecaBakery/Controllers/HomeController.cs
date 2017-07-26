@@ -27,6 +27,34 @@ namespace CuscatlecaBakery.Controllers
             return View();
         }
 
+        public IActionResult Cakes()
+        {
+            ViewData["Message"] = "Cakes Menu";
+
+            return View();
+        }
+
+        public IActionResult Bakery()
+        {
+            ViewData["Message"] = "Bakery Menu";
+
+            return View();
+        }
+
+        public IActionResult Beverages()
+        {
+            ViewData["Message"] = "Beverages Menu";
+
+            return View();
+        }
+
+        public IActionResult Cafe()
+        {
+            ViewData["Message"] = "Cafe Menu";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
